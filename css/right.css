@@ -1,0 +1,115 @@
+
+
+.right-side{background-color:#4682B4;margin-top:-460px;}
+.right-side ul li a{color: #FFFAF0;font-family:sans-serif;display:block;}
+.right-side{float:right;width:220px;}
+.right-side{list-style:none;margin-left:5px;}
+.right-side ul li{}
+.right-side ul li a {text-decoration:none}
+.right-side ul li a:hover{color:#f09d28;text-decoration: underline;}
+
+/*
+.footer{
+background-color:#696969;
+margin-top:-100px;
+margin-left:-175px;
+width:1287px;
+
+
+}
+
+
+*/
+
+/* Footer */
+
+
+.footer			{       margin-top:30px;
+                                margin-left:-70px; 
+                             
+				height: 100px;
+                                width:1287px;
+			}
+
+
+				
+.footer_top		{
+				height: 125px;
+				background-color:#E8DAEF  ;
+				}
+				
+				.footer_top .box	{
+									float: left;
+									width: 250px;
+									margin-right: 35px;
+									padding: 30px 0 0 0;
+									}
+										
+				.footer_top .box h1	{
+									font: bold 12px Arial;
+									color: #17202A  ;
+									border-bottom: 1px solid #9ba5aa;
+									padding-bottom: 3px;
+									margin-bottom: 5px;
+									}
+										
+				.footer_top .box p	{
+									color: #17202A  ;
+									line-height: 13px;
+									}
+								
+.footer_bot		{
+				height: 20px;
+                                background:#B8B8B8;
+				}
+				
+				.footer_bot p		{
+									font: normal 10px Arial;
+									color: #17202A  ;
+									line-height: 20px;
+                                                                        margin-left:5px;
+									}
+								
+				.footer_bot a		{
+									float: right;
+									font: normal 10px Arial;
+									color: #17202A  ;
+									text-decoration: underline;
+									line-height: 20px;
+                                                                        margin-left:-15px; 
+									}
+									
+				.footer_bot a:hover	{
+									color: #047;
+									}
+									
+/* Developers */
+
+.developers		{
+				overflow: hidden;
+				}
+				
+				.developers .pic	{
+									float: left;
+									width: 180px;							
+									}
+									
+									.developers .pic img	{
+															padding: 4px;
+															border: 1px solid #dfdfdf;								
+															}
+															
+				.developers .des	{
+									float: left;
+									width: 300px;
+									padding-top: 20px;
+									}
+									
+									.developers .des table tr td		{
+																		padding: 2px 5px;						
+																		}
+																		
+									.developers .des table tr td.data	{
+																		font: bold 11px Arial;					
+																		color: #74868E;
+																		}

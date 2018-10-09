@@ -1,0 +1,79 @@
+.tajsar{
+  margin-left:-110px;
+  margin-right:1px;
+  margin-top:5px;
+  margin-bottom:90px;
+  padding:0px;
+  height:915px;
+  width:1155px;
+  background:LightSeaGreen ;
+ }
+
+.left-side ul li a{font-family:sans-serif;display:block;color:white;
+ background: #4682B4; border-radius: 2px;margin:1px;margin-left:0;padding-left:10px;padding: 8px;    
+}
+.left-side{float:left;width:300px;margin-top:-55px;	}
+.left-side{width:210px;}
+.left-side ul{list-style:none}
+.left-side ul li{background:white;}
+.left-side ul li a{text-decoration:none}
+.left-side ul li a:hover{background: #f09d28;padding:10px;}
+
+
+.left-mid ul li a{font-family:sans-serif;display:block;color:white;
+ background: #66CDAA; border-radius:0 25px 25px 0;margin:1px;margin-left:-8px;padding-left:10px;padding: 8px;    
+}
+.left-mid{float:left;width:200px;}	}
+.left-mid{width:200px;}
+.left-mid ul{list-style:none}
+.left-mid ul li{background:#B9DDEC;}
+.left-mid ul li a{text-decoration:none}
+.left-mid ul li a:hover{color:rgba(9, 0, 226, 1);background-color:white;}
+
+
+.mid ul li a{font-family:sans-serif;display:block;color:white;
+ background: #66CDAA; border-radius: 2px;margin:1px;margin-left:0;padding-left:10px;padding: 8px;    
+}
+.mid{float:left;width:210px;	}
+.mid{width:190px;}
+.mid ul{list-style:none}
+.mid ul li{background:#B9DDEC;}
+.mid ul li a{text-decoration:none}
+.mid ul li a:hover{color:rgba(9, 0, 226, 1);background-color:white;}    
+
+
+.right-mid ul li a{font-family:sans-serif;display:block;color:white;
+ background: #66CDAA; border-radius: 2px;margin:1px;margin-left:0;padding-left:10px;padding: 8px;    
+}
+.right-mid{float:left;width:210px;	}
+.right-mid{width:190px;}
+.right-mid ul{list-style:none}
+.right-mid ul li{background:#B9DDEC;}
+.right-mid ul li a{text-decoration:none}
+.right-mid ul li a:hover{color:rgba(9, 0, 226, 1);background-color:white;}
+/*----------------------------------------------------------------------------------------*/
+.marquee {
+    width: 600px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.marquee span {
+    display: inline-block;
+    font:20px;
+    color:white;
+    padding-left: 100%;  /* show the marquee just outside the paragraph */
+    animation: marquee 15s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
